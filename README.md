@@ -2,7 +2,7 @@ Thank you for taking interest in this model.
 It means we share an interest for stroke care and prediction models. Please do not hesitate to reach out if questions or if you are interested in collaboration.
 
 Before running the script, you need to create an excel file with following variables, in this order, one variable each column (here listed in rows to give easier overview):<br>
-Brain_Age_Gap : Brain Age estimated from T1 image at admission, minus real age<br>
+Brain_Age_Gap : Brain Age estimated from T1 image at admission, minus real age(we used Pyment (https://github.com/estenhl/pyment-public) <br>
 Age_0 : Age at admission<br>
 Lesion_volume : Lesion volume segmented on DWI takien during acute phase<br>
 Gender : 1 is male, 2 is female<br>
